@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: aws_costs
-    database: fivetran_db
+    database: pc_fivetran_db
     schema: hashmap_aws_cost_monitoring
     loader: fivetran # informational only (free text)
     loaded_at_field: _fivetran_synced # configure for all sources
