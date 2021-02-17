@@ -1,9 +1,9 @@
-name: Production deployment from master
+name: Production deployment from main
 
 on: 
   push:
     branches:
-      - master
+      - main
 
 env:
   DBT_PROFILE_TARGET:            prod
