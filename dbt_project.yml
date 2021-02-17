@@ -4,6 +4,7 @@
 # name or the intended use of these models
 name: 'cloud_cost_monitoring'
 version: '0.0.1'
+config-version: 2
 
 # This setting configures which "profile" dbt uses for this project. Profiles contain
 # database connection information, and should be configured in the  ~/.dbt/profiles.yml file
